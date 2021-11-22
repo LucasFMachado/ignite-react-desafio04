@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+import { ContainerInputProps } from '../../types'
+
+export const Container = styled.div<ContainerInputProps>`
   display: flex;
   align-items: center;
 
